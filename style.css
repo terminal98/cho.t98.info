@@ -18,6 +18,12 @@ body {
   margin: 1em 0;
 }
 
+#bg-2 {
+  margin: 1em 0;
+  padding: 2em 0;
+  background-color: #2196f3cc;
+}
+
 .text-red {
   color: red;
   font-weight: bold;
