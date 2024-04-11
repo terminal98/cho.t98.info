@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(to right, #cae6f7, #dddff3);
+}
+
+#title {
+  font-size: 3.5rem;
+  padding: 1em 0;
+}
+
+#bg-1 {
+  margin: 1em 0;
+  padding: 2em 0;
+  background-color: #ffbf63cc;
+}
+
+.text-red {
+  color: red;
+  font-weight: bold;
+}
+
+
+.lity-close {
+  font-size: 5em;
+  width: 2em;
+  height: 2em;
+}
+
+.lity-close:hover {
+  font-size: 5em;
+  color: red;
+}
+
+
+/* フェードインテキスト */
+.fadein-text {
+  font-size: 3rem;
+  font-weight: bold;
+  animation-name: fadein;
+  animation-duration: 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(1em);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
