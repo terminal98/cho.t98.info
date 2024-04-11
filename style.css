@@ -5,6 +5,7 @@ body {
 #title {
   font-size: calc(100% + 3vw);
   padding: 0.25em 0;
+  font-weight: bold;
 }
 
 #bg-1 {
@@ -51,7 +52,6 @@ img.footer-logo {
 
 /* フェードインテキスト */
 .fadein-text {
-  font-weight: bold;
   animation-name: fadein;
   animation-duration: 3s;
 }
